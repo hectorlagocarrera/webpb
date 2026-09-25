@@ -29,7 +29,7 @@ Después de cambiar clases de Tailwind en los HTML hay que ejecutar `npm run bui
 
 ## Formulario de contacto
 
-Lo gestiona [FormSubmit](https://formsubmit.co), que reenvía cada consulta a `padronbermejo@gmail.com` y muestra un CAPTCHA.
+Lo gestiona [FormSubmit](https://formsubmit.co), que reenvía cada consulta a `contacto@padronbermejoabogado.es` y muestra un CAPTCHA.
 El primer envío genera un correo de activación que hay que confirmar una sola vez.
 
 ## Pendiente antes de producción
