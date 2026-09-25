@@ -1,0 +1,16 @@
+{
+  "name": "webpb",
+  "private": true,
+  "description": "Web de Francisco Padrón Bermejo, abogado en Las Palmas de Gran Canaria",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch",
+    "build:fonts": "node scripts/copy-fonts.mjs",
+    "build": "npm run build:fonts && npm run build:css"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "tailwindcss": "^3.4.19"
+  }
+}
