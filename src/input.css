@@ -1,23 +1,23 @@
 @font-face {
-  font-family: 'Fraunces Variable';
+  font-family: 'Playfair Display Variable';
   font-style: normal;
   font-display: swap;
-  font-weight: 100 900;
-  src: url('../fonts/fraunces-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 400 900;
+  src: url('../fonts/playfair-display-latin-wght-normal.woff2') format('woff2-variations');
 }
 @font-face {
-  font-family: 'Fraunces Variable';
+  font-family: 'Playfair Display Variable';
   font-style: italic;
   font-display: swap;
-  font-weight: 100 900;
-  src: url('../fonts/fraunces-latin-wght-italic.woff2') format('woff2-variations');
+  font-weight: 400 900;
+  src: url('../fonts/playfair-display-latin-wght-italic.woff2') format('woff2-variations');
 }
 @font-face {
-  font-family: 'Manrope Variable';
+  font-family: 'Inter Variable';
   font-style: normal;
   font-display: swap;
-  font-weight: 200 800;
-  src: url('../fonts/manrope-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  src: url('../fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
 }
 
 @tailwind base;
@@ -33,10 +33,10 @@
 @layer components {
   .eyebrow { @apply text-[0.72rem] font-semibold uppercase tracking-[0.28em]; }
   .btn-brass {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brass-400 px-7 py-3.5 text-[0.95rem] font-semibold text-ink-950 transition hover:bg-brass-300;
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-7 py-3.5 text-[0.95rem] font-semibold text-navy-950 transition hover:bg-gold-400;
   }
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-current px-7 py-3.5 text-[0.95rem] font-medium transition;
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-current px-7 py-3.5 text-[0.95rem] font-medium transition;
   }
   .field {
     @apply mt-2 block w-full rounded-xl border border-ink-100 bg-ink-50/60 px-4 py-3 text-ink-900 outline-none transition placeholder:text-ink-300 focus:border-brass-400 focus:bg-white focus:ring-4 focus:ring-brass-200/50;
@@ -47,9 +47,6 @@
   .prose-legal ul { @apply mt-2 list-disc pl-5; }
   .prose-legal a { @apply text-ink-900 underline decoration-brass-400 underline-offset-2; }
 }
-
-/* Líneas de contorno del fondo del hero */
-.contours { stroke: theme('colors.brass.400'); stroke-opacity: 0.16; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

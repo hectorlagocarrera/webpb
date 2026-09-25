@@ -4,6 +4,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // Paleta de la página principal
+        navy: {
+          50: '#f2f5fa',
+          100: '#e3e9f3',
+          700: '#1b2d4f',
+          800: '#13223d',
+          900: '#0c1830',
+          950: '#070f20',
+        },
+        gold: {
+          300: '#dcc48e',
+          400: '#cfae6a',
+          500: '#b8944f',
+          600: '#9c7a3c',
+        },
+        // Tonos de apoyo (páginas legales y 404)
         ink: {
           50: '#f3f5f9',
           100: '#e4e8f0',
@@ -27,11 +43,11 @@ module.exports = {
         },
       },
       fontFamily: {
-        serif: ['"Fraunces Variable"', 'Georgia', 'serif'],
-        sans: ['"Manrope Variable"', 'system-ui', 'sans-serif'],
+        serif: ['"Playfair Display Variable"', 'Georgia', 'serif'],
+        sans: ['"Inter Variable"', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        soft: '0 18px 40px -22px rgba(13, 23, 43, 0.35)',
+        soft: '0 10px 30px -12px rgba(12, 24, 48, 0.18)',
       },
     },
   },

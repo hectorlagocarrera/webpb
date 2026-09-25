@@ -2,9 +2,9 @@
 import { copyFileSync, mkdirSync } from 'node:fs';
 
 const files = [
-  ['@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2', 'fraunces-latin-wght-normal.woff2'],
-  ['@fontsource-variable/fraunces/files/fraunces-latin-wght-italic.woff2', 'fraunces-latin-wght-italic.woff2'],
-  ['@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2', 'manrope-latin-wght-normal.woff2'],
+  ['@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2', 'playfair-display-latin-wght-normal.woff2'],
+  ['@fontsource-variable/playfair-display/files/playfair-display-latin-wght-italic.woff2', 'playfair-display-latin-wght-italic.woff2'],
+  ['@fontsource-variable/inter/files/inter-latin-wght-normal.woff2', 'inter-latin-wght-normal.woff2'],
 ];
 
 mkdirSync('assets/fonts', { recursive: true });
