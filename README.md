@@ -12,7 +12,7 @@ Sitio estático publicado con GitHub Pages desde la rama `main`.
 | `aviso-legal.html`, `privacidad.html`, `cookies.html` | Páginas legales (LSSI / RGPD) |
 | `404.html` | Página de error |
 | `assets/css/styles.css` | CSS compilado con Tailwind (**generado**, no editar a mano) |
-| `assets/fonts/` | Fraunces y Manrope alojadas en el propio dominio (sin Google Fonts) |
+| `assets/fonts/` | Playfair Display e Inter alojadas en el propio dominio (sin Google Fonts) |
 | `assets/img/` | Favicon, iconos e imagen para redes sociales (`og.png`) |
 | `src/input.css`, `tailwind.config.js` | Fuente del CSS |
 | `robots.txt`, `sitemap.xml` | SEO |
